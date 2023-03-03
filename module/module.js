@@ -1,5 +1,4 @@
-class Module {
+module.exports = class  Module {
 
 }
 
-export default Module
