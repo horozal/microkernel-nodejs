@@ -1,7 +1,5 @@
 const Module = require("module/module.js");
 
-class Microkernel {
+module.exports = class Microkernel {
 
 }
-
-module.exports = Microkernel
