@@ -1,3 +1,5 @@
+const Module = require("module/module.js");
+
 class Microkernel {
 
 }
