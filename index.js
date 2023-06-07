@@ -10,8 +10,20 @@ class Microkernel {
   sayHello() {
     return "Hello, World!";
   }
+
+  sayHelloKernel() {
+    return this.core.helloKernel();
+  }
+
+  sayHelloModule() {
+    return this.module.helloModule();
+  }
 }
 
 // Usage
 const microkernel = new Microkernel();
 console.log(microkernel.sayHello());
+console.log(microkernel.sayHelloKernel());
+console.log(microkernel.sayHelloModule());
+
+

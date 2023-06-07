@@ -1,3 +1,12 @@
-module.exports = class Kernel {
+class Core {
+  constructor() {
+    // Constructor logic here
+  }
 
+  helloKernel() {
+    return "Hello, Kernel!";
+  }
 }
+
+module.exports = Core;
+
