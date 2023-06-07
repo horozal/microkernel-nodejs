@@ -1,5 +1,6 @@
 # microkernel-nodejs
-Repository template for a microkernel project in Node.js with a ```core``` package and a ```module``` package.
+Repository template for a Node.js project using a microkernel architecture.
+The project demonstrates a ```core``` package and a ```module``` package.
 
 To start the script, run:
 ```npm start```
