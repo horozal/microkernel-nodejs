@@ -1,5 +1,5 @@
-const Core = require("./packages/core/index.js");
-const Module = require("./packages/modules/module/module.js");
+const Core = require("./core/index.js");
+const Module = require("./modules/module/module.js");
 
 class Microkernel {
   constructor() {
